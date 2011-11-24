@@ -27,7 +27,7 @@ class Users extends Oscar_Front_Controller{
 		//$connection = new Mongo();
 		//$db = $connection->testFW;
 		//var_dump($db);
-		//$this->display("carnet.tpl");
+		$this->display("carnet.tpl");
 		$this->display("contact.tpl");
 		//$user = new M_users();
 

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.4, created on 2011-11-24 15:17:04
+<?php /* Smarty version Smarty-3.0.4, created on 2011-11-24 17:01:21
          compiled from "../application/test/layouts/contact.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3685576294ece51e0c94313-03464294%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10265469824ece6a51aeecf2-38478005%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'dc93b2878c96bf09890c50aab16ee8c8648e1465' => 
     array (
       0 => '../application/test/layouts/contact.tpl',
-      1 => 1322144221,
+      1 => 1322150477,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3685576294ece51e0c94313-03464294',
+  'nocache_hash' => '10265469824ece6a51aeecf2-38478005',
   'function' => 
   array (
   ),
@@ -48,42 +48,42 @@ if ($_smarty_tpl->_count($_from) > 0){
 	<div>
 	    <label> nom </label>
 	    <span>
-		     <?php echo $_smarty_tpl->getVariable('nom')->value;?>
+		     <?php echo (isset($_smarty_tpl->tpl_vars['personne']->value['nom']) ? $_smarty_tpl->tpl_vars['personne']->value['nom'] : null);?>
 
 	    </span>
 	</div>
 	<div>
 	    <label> prenom </label>
 	    <span>
-		     <?php echo $_smarty_tpl->getVariable('prenom')->value;?>
+		     <?php echo (isset($_smarty_tpl->tpl_vars['personne']->value['prenom']) ? $_smarty_tpl->tpl_vars['personne']->value['prenom'] : null);?>
 
 	    </span>
 	</div>
 	<div>
 	    <label> num </label>
 	    <span>
-		     <?php echo $_smarty_tpl->getVariable('num')->value;?>
+		     <?php echo (isset($_smarty_tpl->tpl_vars['personne']->value['num']) ? $_smarty_tpl->tpl_vars['personne']->value['num'] : null);?>
 
 	    </span>
 	</div>
 	<div>
 	    <label> adresse </label>
 	    <span>
-		     <?php echo $_smarty_tpl->getVariable('adresse')->value;?>
+		     <?php echo (isset($_smarty_tpl->tpl_vars['personne']->value['adresse']) ? $_smarty_tpl->tpl_vars['personne']->value['adresse'] : null);?>
 
 	    </span>
 	</div>
 	<div>
 	    <label> email </label>
 	    <span>
-		    <?php echo $_smarty_tpl->getVariable('email')->value;?>
+		    <?php echo (isset($_smarty_tpl->tpl_vars['personne']->value['email']) ? $_smarty_tpl->tpl_vars['personne']->value['email'] : null);?>
 
 	    </span>
 	</div>
 	<div>
 	    <label> compagnie </label>
 	    <span>
-		     <?php echo $_smarty_tpl->getVariable('personne')->value->compagnie;?>
+		     <?php echo (isset($_smarty_tpl->tpl_vars['personne']->value['compagnie']) ? $_smarty_tpl->tpl_vars['personne']->value['compagnie'] : null);?>
 
 	    </span>
 	</div>

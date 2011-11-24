@@ -25,37 +25,37 @@
 	<div>
 	    <label> nom </label>
 	    <span>
-		     {$nom}
+		     {$personne.nom}
 	    </span>
 	</div>
 	<div>
 	    <label> prenom </label>
 	    <span>
-		     {$prenom}
+		     {$personne.prenom}
 	    </span>
 	</div>
 	<div>
 	    <label> num </label>
 	    <span>
-		     {$num}
+		     {$personne.num}
 	    </span>
 	</div>
 	<div>
 	    <label> adresse </label>
 	    <span>
-		     {$adresse}
+		     {$personne.adresse}
 	    </span>
 	</div>
 	<div>
 	    <label> email </label>
 	    <span>
-		    {$email}
+		    {$personne.email}
 	    </span>
 	</div>
 	<div>
 	    <label> compagnie </label>
 	    <span>
-		     {$personne->compagnie}
+		     {$personne.compagnie}
 	    </span>
 	</div>
 	  {/foreach} 	
